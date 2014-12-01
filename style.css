@@ -1,0 +1,104 @@
+/*
+Theme Name: Twenty Thirteen Child
+Template: twentythirteen
+*/
+
+@import url(../twentythirteen/style.css);
+
+.site-content {
+    max-width: 960px;
+    margin: auto;
+}
+
+.list-posts,
+#list-topics,
+#selected-topics {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#list-topics li,
+#selected-topics li {
+    border-bottom: 1px solid #f8f8f8;
+    position: relative;
+}
+
+#list-topics li a,
+#selected-topics li {
+    display: block;
+    padding: 7px 9px;
+}
+
+#list-topics li a:hover,
+#selected-topics li:hover {
+background: none repeat scroll 0 0 #eaf2fa;
+box-shadow: 0 0 0 1px #d6e1ec;
+color: #000;
+}
+
+.adv-search {
+    /*height: 150px;*/
+    overflow: auto;
+    margin: 20px 0;
+    width: 50%;
+    float: left;
+    border: 1px solid #dfdfdf;
+}
+
+#results {
+    clear: both;
+}
+
+.hentry {
+    padding: 0;
+}
+
+#select-result {
+    position: absolute;
+}
+
+#list-topics span,
+#selected-topics span {
+    display: inline-block;
+    float: right;
+}
+
+#list-topics .ui-icon,
+#selected-topics .ui-icon {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 13px;
+}
+
+#list-topics li a:hover span.ui-icon,
+#selected-topics li:hover span.ui-icon {
+    display: block;
+}
+
+#list-topics li a:hover #topics,
+#selected-topics li:hover #topics {
+    padding-right: 24px;
+}
+
+#list-topics .hide {
+    background: none repeat scroll 0 0 #f8f8f8;
+}
+
+#list-topics .hide a {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #21759b !important;
+    cursor: default;
+    opacity: 0.5;
+}
+
+#list-topics .hide a:hover span.ui-icon {
+    display: none;
+}
+
+#list-topics .hide a:hover #topics {
+    padding-right: 0;
+}
+
